@@ -1,0 +1,104 @@
+body {
+    background-color:bisque;
+}
+.column-left {
+    width: 50vw;
+    height: auto;
+    float: left;
+    border: solid;
+    border-radius: 1em;
+    margin-top:2em;
+    margin-left:1em;
+    margin-right:1em;
+    background-color:lightblue;
+}
+.column-right {
+    width: 50vw;
+    height: auto;
+    float: right;
+    margin-top:2em;
+    margin-left:1em;
+    margin-right:1em;
+}
+.h1 {
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.links-section {
+    margin-bottom: 2em;
+}
+.navlink {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.navlink:hover {
+    background-color:pink;
+}
+#art-link {
+    margin-top:5em;
+    margin-bottom: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    font-size: medium;
+    border: solid;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 0.25em;
+}
+#jewelry-link {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    margin-left: 10em;
+    margin-right: 10m;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    font-size: medium;
+    border: solid;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 0.25em;
+}
+#art-link:hover {
+    background-color: palegoldenrod;
+}
+#jewelry-link:hover {
+    background-color: palegoldenrod;
+}
+.education-experience {
+    font-family: sans-serif;
+}
+#resume {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+td {
+    border: solid;
+    border-radius: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color:white;
+}
+tr {
+    margin-left:0.5vw;
+    margin-top:0.5vw;
+    margin-bottom:0.5vw;
+    margin-right:0.5vw;
+}
+footer {
+    font-family: sans-serif;
+}

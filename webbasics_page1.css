@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.row {
+    display: flex;
+}
+.column-top {
+    width: 100vw;
+    height: auto;
+    /*border: solid;*/
+    background-color:wheat;
+    border-radius: 1em;
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#about-artist {
+    text-align: justify;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    font-family: sans-serif;
+}
+.about-artist {
+    text-align: center;
+}
+.column-1 {
+    width: 50vw;
+    height: auto;
+    float: left;
+    display: block;
+    /*border: solid;*/
+    border-radius: 1em;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right: 0.5em;
+    background-color:lightblue;
+}
+.column-2 {
+    width: 50vw;
+    height: auto;
+    float: right;
+    display: block;
+    /*border: solid;*/
+    border-radius:1em;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 0.5em;
+    background-color: lightpink;
+}
+#artist-about-experience {
+    text-align: center;
+    font-family: sans-serif;
+}
+#artist-about-continued {
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.education-experience {
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid;
+}
+.navlink {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.navlink:hover {
+    background-color:lightpink;
+}
+.column-2 {
+    font-family: sans-serif;
+}
+#georgia-practices {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+ul {
+    list-style-type:disc;
+}
+.mediums {
+    list-style-type:upper-roman;
+}
+/* Information for how to create different list style types from W3 Schools CSS list-style-type Property page https://www.w3schools.com/cssref/pr_list-style-type.php */
+body {
+    background-color:seashell;
+}
+.inspiration {
+    text-align: justify;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.materials {
+    text-align: justify;
+    margin-left: 15vw;
+}
+footer {
+    font-family: sans-serif;
+}
